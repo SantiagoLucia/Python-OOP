@@ -52,6 +52,7 @@ class UserGrossQuery(QueryTemplate):
             outfile.write(self.formatted_results)
             
 
+
 if __name__ == "__main__":
     vehicles = NewVehiclesQuery()
     vehicles.process_format()
